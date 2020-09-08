@@ -44,15 +44,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-    'QuestionTime.users',
-    'rest_framework',
-    'rest_framework.authtoken',
-    'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'rest_auth',
+    'allauth',
+    'crispy_forms',
+    'QuestionTime.questions',
+    'QuestionTime.users',
     'rest_auth.registration',
-    'crispy_forms'
+    'rest_auth',
+    'rest_framework.authtoken',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
